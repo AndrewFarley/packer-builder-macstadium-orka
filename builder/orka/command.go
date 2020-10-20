@@ -3,25 +3,22 @@ package orka
 import (
 	"log"
 	"os/exec"
-	// "fmt"
 )
 
 func RunCommand(args ...string) (string, error) {
+	log.Printf("Executing args: %#v", args)
 
-		// var stdout, stderr bytes.Buffer
+	cmd := exec.Command(args[0], args[1:]...)
+	stdout, err := cmd.Output()
 
-		log.Printf("Executing args: %#v", args)
-		cmd := exec.Command(args[0], args[1:]...)
+	return string(stdout), err
 
-    stdout, err := cmd.Output()
-		return string(stdout), err
+	// if err != nil {
+	// 	log.Println("Error")
+	// 	log.Println(err.Error())
+	// 	return string(stdout), err
+	// }
 
-    if err != nil {
-				log.Println("Error")
-        log.Println(err.Error())
-        return string(stdout), err
-    }
-		
-    log.Println(string(stdout))
-		return string(stdout), nil
+	// log.Println(string(stdout))
+	// return string(stdout), nil
 }
