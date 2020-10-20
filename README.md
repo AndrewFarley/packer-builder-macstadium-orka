@@ -1,6 +1,6 @@
 # Packer Builder for Orka
 
-MOVED TO: https://github.com/lumoslabs/packer-builder-macstadium-orka/
+MOVED TO: https://github.com/lumoslabs/packer-builder-orka
 
 This is a [Packer Builder] to automate building images for [MacStadium Orka] a Kubernetes/Docker-based macOS virtualization PaaS/SaaS service by [MacStadium].
 
