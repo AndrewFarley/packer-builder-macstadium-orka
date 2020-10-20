@@ -16,3 +16,22 @@ This plugin is "very-loosely" based-on and took inspiration from the [Packer Nul
 
 * Written by [Farley Farley] ( farley _at_ neonsurge **dawt** com )
 * License Terms: [GNU GPL v3]
+
+[//]: <> (Ignore, below here are links for ease-of-use above)
+[Packer]: https://www.packer.io/
+[Packer Builder]: https://www.packer.io/docs/extending/custom-builders.html
+[MacStadium Orka]: https://www.macstadium.com/orka
+[Orka]: https://www.macstadium.com/orka
+[MacStadium]: https://www.macstadium.com
+[Packer Downloads]: https://www.packer.io/downloads.html
+[Orka CLI Downloads]: https://orkadocs.macstadium.com/docs/downloads
+[Orka Setup Guide]: https://orkadocs.macstadium.com/docs/quick-start
+[Latest Release]: https://github.com/andrewfarley/packer-builder-macstadium-orka/releases
+[Farley Farley]: https://github.com/andrewfarley
+[GNU GPL v3]: https://choosealicense.com/licenses/gpl-3.0/
+[v1.0.0]: https://github.com/andrewfarley/packer-builder-macstadium-orka/releases/tag/v1.0.0
+[SSH Communicator]: https://www.packer.io/docs/communicators/ssh
+[Packer Builder Veertu Anka]: https://github.com/veertuinc/packer-builder-veertu-anka
+[Packer Null Builder]: https://github.com/hashicorp/packer/tree/master/builder/null
+[Packer LXD Builder]: https://github.com/hashicorp/packer/tree/master/builder/lxd
+[file an issue]: https://github.com/AndrewFarley/packer-builder-macstadium-orka/issues
